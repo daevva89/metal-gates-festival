@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
         <FooterStyles theme={theme}>
             <Container maxWidth="lg">
                 <Box display="flex" justifyContent="space-between" alignItems="center">
-                    <Typography variant="body1">Created by Mihu</Typography>
+                    <Typography variant="body1">Created by Mihu & Chauve</Typography>
                     <Box>
                         <IconButton
                             component={Link}

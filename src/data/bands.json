@@ -5,12 +5,13 @@
         "country": "Sweden",
         "genre": "Dark Progressive Metal",
         "smallImage": "katatonia.jpeg",
-        "heroImage": "katatonia.jpeg",
+        "heroImage": "katatonia.jpg",
         "flags": [
             "sweden.png"
         ],
         "description": "Carving their way from their nineties Gothic-tinged Doom Metal to the ethereal Post-Metal entity they are today, the band led by founding members Jonas Renkse and Anders Nyström have always been and will forevermore be one thing—a vessel of deep emotion shrouded in Scandinavian despair and a universal longing for salvation. <br /><br />Over an unbelievable thirty years and 12 studio albums, Katatonia has never shied away from evolution. They have embraced the concept of growing through rejuvenation to soothe their blackened hearts and scarred souls—coming back stronger and more unified than ever after their hiatus with City Burials in April 2020. Yet at the very core of this entity, there still lingers the essence of their remarkable passage through time and space. <br /><br />Their music is pure and heartfelt from the northern wilderness; cast in mournful dirges for a world that needs a renaissance. Here are musicians who truly speak from the soul to the soul - a dialogue seldom as intense, as emotionally challenging, and as visceral as the gloomy and irresistible preciousness that is the new album “Sky Void of Stars” (2023). Jonas Renkse (vocals), Anders Nyström (guitar), Roger Öjersson (guitar), Niklas Sandin (bass), and Daniel Moilanen (drums) have outdone themselves yet again, which is no easy feat with a vita like theirs.",
-        "youtubeId": "_ILWPwc4KaY"
+        "youtubeId": "_ILWPwc4KaY",
+        "spotifyUri": "2CWWgbxApjbyByxBBCvGTm"
     },
     {
         "id": 2,
@@ -18,12 +19,13 @@
         "country": "Greece",
         "genre": "Melodic Black Metal",
         "smallImage": "rotting-christ.jpeg",
-        "heroImage": "rotting-christ.jpeg",
+        "heroImage": "rotting-christ.jpg",
         "flags": [
             "greece.png"
         ],
         "description": "There is no doubt that the Greeks have stood the test of time. With a steady line-up and a well-honed live performance, Rotting Christ are filling concert halls and receiving enthusiastic crowd reactions worldwide. <br /><br />This demonstration of love from their followers is not just driven by nostalgia, as the band has evolved and grown while remaining relevant beyond the classics with their highly acclaimed latest albums such as \"Aealo\" (2010), \"Κατά τον δαίμονα εαυτού\" (2013), \"Rituals\" (2016), and \"The Heretics\" (2019).",
-        "youtubeId": "Cw4ayCOYFYo"
+        "youtubeId": "Cw4ayCOYFYo",
+        "spotifyUri": "7FhkwcO8Jd7BRWdllBpXBJ"
     },
     {
         "id": 3,
@@ -31,13 +33,14 @@
         "country": "International",
         "genre": "Black Metal",
         "smallImage": "darvaza.jpeg",
-        "heroImage": "darvaza.jpeg",
+        "heroImage": "darvaza.jpg",
         "flags": [
             "italy.png",
             "norway.png"
         ],
         "description": "Features the talents of Italian multi-instrumentalist Omega (Fides Inversa, Chaos Invocation, Blut Aus Nord, Kult, Frostmoon Eclipse, Nubivagant) handling all instruments as always, and Norwegian voice of Death; Wraath (Behexen, Ritual Death, Mare, Celestial Bloodshed, Kaosritual, and One Tail, One Head) handling the main vocal duties, Darvaza is indeed an unholy alliance forged in decay. Darvaza released three EP's via Terratur Possessions from Norway; \"The Downward Descent\" (2015), \"The Silver Chalice\" (2016), and \"Darkness In Turmoil\" (2018), and a full-length, entitled \"Ascending Into Perdition\" (2022).<br /><br />No gimmicks, no bullshit; pure Black Metal Devotion.",
-        "youtubeId": "0h7MTC6JNKY"
+        "youtubeId": "0h7MTC6JNKY",
+        "spotifyUri": "3bLPyQrEBC1SClEcf6kZ3n"
     },
     {
         "id": 4,
@@ -45,12 +48,13 @@
         "country": "United Kingdom",
         "genre": "Dark Progressive Art Rock",
         "smallImage": "antimatter.jpeg",
-        "heroImage": "antimatter.jpeg",
+        "heroImage": "antimatter.jpg",
         "flags": [
             "united-kingdom.png"
         ],
         "description": "Dark Progressive Art-Rock outfit Antimatter has been the solo project of singer-songwriter/multi-instrumentalist Mick Moss since 2005 and the subsequent release of the breakthrough album “Leaving Eden”. Now over 20 years since Antimatter's formation, and 8 studio albums in, there seems to be no sign of slowing down. Back for 2023, Moss' project returns to the concert arena for festivals and shows to celebrate the release of the new album “A Profusion of Thought”.",
-        "youtubeId": "Ea16YmkcnO0"
+        "youtubeId": "Ea16YmkcnO0",
+        "spotifyUri": "2k4duorvZ5lTq33ljpT0sc"
     },
     {
         "id": 5,
@@ -58,12 +62,13 @@
         "country": "Ukraine",
         "genre": "Black Metal",
         "smallImage": "khors.jpeg",
-        "heroImage": "khors.jpeg",
+        "heroImage": "khors.jpg",
         "flags": [
             "ukraine.png"
         ],
         "description": "Experienced musicians of the Ukrainian underground Metal scene created the band in August 2004 in Kharkiv. The band has an arsenal of six full-length albums, DVDs, live albums, and EPs, released in various formats on well-known labels of the Metal industry. The band continues to grow and evolve with every new record and every new show.",
-        "youtubeId": "xBd9OBW9Ba4"
+        "youtubeId": "xBd9OBW9Ba4",
+        "spotifyUri": "3tJCrNrAyyrC4BRVeTzD6t"
     },
     {
         "id": 6,
@@ -71,12 +76,13 @@
         "country": "Italy",
         "genre": "Melodic Black/Doom Metal",
         "smallImage": "shores-of-null.jpeg",
-        "heroImage": "shores-of-null.jpeg",
+        "heroImage": "shores-of-null.jpg",
         "flags": [
             "italy.png"
         ],
         "description": "Shores of Null is a Rome-based Metal band that stands out from their contemporaries with its ability to blend seemingly disparate elements into its sound, overwhelmingly heavy and soothing at the same time: blackened aggression stands alongside gothic-doom sections without either sounding out of place. Their music can be both melancholic yet majestic, made of chorale-like guitar textures across the instrument’s entire range, sustained by a powerful rhythmic section and punctuated by a refined mixture of clean and growled vocals, along with extensive use of pleasing vocal harmonies which have become the band’s trademark through the years.",
-        "youtubeId": "W_LV8-Mz8qA"
+        "youtubeId": "W_LV8-Mz8qA",
+        "spotifyUri": "76lKNyW77arKg42qdDO9Sm"
     },
     {
         "id": 7,
@@ -84,12 +90,13 @@
         "country": "Greece",
         "genre": "Funeral Doom/Death Metal",
         "smallImage": "shattered-hope.jpeg",
-        "heroImage": "shattered-hope.jpeg",
+        "heroImage": "shattered-hope.jpg",
         "flags": [
             "greece.png"
         ],
         "description": "The band originated in Athens in July 2002 and underwent several line-up changes before finally settling on a six-member group in December 2003. They began playing gigs at various clubs and open festivals, performing their own material as well as covers of bands like My Dying Bride, Paradise Lost, and Saturnus. In February 2014, Shattered Hope decided to eliminate keyboards from their sound, resulting in a five-member lineup. However, this change did not affect the band's ability to create their signature brand of melancholic, heavy music. In July 2019, Shattered Hope went on to record their third album, \"Vespers\", which showcased a darker and colder side of their music. The album was released in November 2020 by Solitude Production.",
-        "youtubeId": "odlBm2i3kgQ"
+        "youtubeId": "odlBm2i3kgQ",
+        "spotifyUri": "03nMSvLmzCW70rn7kPcFAt"
     },
     {
         "id": 8,
@@ -97,12 +104,13 @@
         "country": "Germany",
         "genre": "Atmospheric Gothic/Doom Metal",
         "smallImage": "remina.jpeg",
-        "heroImage": "remina.jpeg",
+        "heroImage": "remina.jpg",
         "flags": [
             "germany.png"
         ],
         "description": "Remina was formed in 2021 by Heike Langhans (ex-Draconian, ex-ISON, :LOR3L3I:) and Mike Lamb (Sojourner) between New Zealand and South Africa. Building crystalline cathedrals of haunted Cosmic Doom inspired by the endless expanse of Space; Gothic Metal, Doom, Darkwave, and minimalist Post-Metal elements weave together to form the core of Remina’s sound. <br /><br />The band’s debut album, “Strata”, was released on November 11th, 2022, and the live line-up was rounded with the addition of Mauro Ragnoli from (EchO) on second guitar, Giovanni Feroldi from Ghostheart Nebula and Obsolete Theory on bass, Riccardo Floridia from Sojourner on drums.",
-        "youtubeId": "QU3nepdFqUw"
+        "youtubeId": "QU3nepdFqUw",
+        "spotifyUri": "5M8gMWMvoNjV1YzX2o9cPT"
     },
     {
         "id": 9,
@@ -110,12 +118,13 @@
         "country": "Slovakia",
         "genre": "Melodic Doom/Death Metal",
         "smallImage": "doomas.jpeg",
-        "heroImage": "doomas.jpeg",
+        "heroImage": "doomas.jpg",
         "flags": [
             "slovakia.png"
         ],
         "description": "Formed in 2006, Doomas is a Melodic Doom Metal / Death Metal band that originates from Nová Baňa, Slovakia. Over the years, the band has performed at numerous concerts all across Europe, including England, the Netherlands, and Austria. Doomas has also had the privilege of performing at some of the biggest festivals in the region, including Brutal Assault, Gothoom Open Air Fest, Hungarock, Metal Gates Festival, Metal Mine, and Kaltenbach.",
-        "youtubeId": "coaCaLM-ZtU"
+        "youtubeId": "coaCaLM-ZtU",
+        "spotifyUri": "5jo3XS1o8RDOLEWxbO8esY"
     },
     {
         "id": 10,
@@ -123,13 +132,14 @@
         "country": "International",
         "genre": "Doom/Death Metal",
         "smallImage": "pilgrimage.jpeg",
-        "heroImage": "pilgrimage.jpeg",
+        "heroImage": "pilgrimage.jpg",
         "flags": [
             "netherlands.png",
             "malta.png"
         ],
         "description": "Founded in 2018, Pilgrimage (Doom-Death Metal / Malta) is the result of a collaboration between Sean Pollacco (Drown The Sea, ex-Weeping Silence, Metal over Malta Fest), Eric Hazebroek (Vetrar Draugurinn, Stream of Passion, Ditch), Dario Pace Taliana (Weeping Silence), Emanuel Portelli (Victims of Creation, Hemplifier) & Dino Mifsud Lepre (Victims of Creation, Hemplifier). <br /><br />In December 2021, Sleaszy Rider SRL released Pilgrimage's debut album \"Sigil of the Pilgrim Sun\" which features a guest vocal appearance by Daniel Neagoe (Clouds, Daius, Drown The Sea).",
-        "youtubeId": "BpcOaI_y1MI"
+        "youtubeId": "BpcOaI_y1MI",
+        "spotifyUri": "6dFsyp0pU5Fy5GQCAhdkAq"
     },
     {
         "id": 11,
@@ -137,12 +147,13 @@
         "country": "Belarus",
         "genre": "Funeral Doom Metal",
         "smallImage": "woe-unto-me.jpeg",
-        "heroImage": "woe-unto-me.jpeg",
+        "heroImage": "woe-unto-me.jpg",
         "flags": [
             "belarus.png"
         ],
         "description": "Woe Unto Me was founded in 2008 in Grodno (Belarus) by two guitarists, Dzmitry Shchyhlinski and Artyom Serdyuk (also known for his work in Deathbringer, Thy Disease, Disloyal, Amentia). Woe Unto Me is a group of committed musicians who prioritize not only creating recordings but also delivering professional live performances featuring custom video visualizations that perfectly sync with their audio performance, resulting in an unforgettable experience for their audiences.",
-        "youtubeId": "3a6l_LknPLw"
+        "youtubeId": "3a6l_LknPLw",
+        "spotifyUri": "7nFCNvJBqmpWIhyQbOdMfG"
     },
     {
         "id": 12,
@@ -150,12 +161,13 @@
         "country": "Israel",
         "genre": "Thrash Metal",
         "smallImage": "sinnery.jpeg",
-        "heroImage": "sinnery.jpeg",
+        "heroImage": "sinnery.jpg",
         "flags": [
             "israel.png"
         ],
         "description": "Sinnery is an Israeli Thrash Metal band that was formed over a decade ago in the cellar of a music store in Herzliya. Throughout its journey, Sinnery has shared the stage with well-known artists like Kreator, Decapitated, Behemoth, Lamb Of God, and Bullet For My Valentine, and their music has been enjoyed in countries such as Romania, Cyprus, and Russia.",
-        "youtubeId": "svw2KY5bIPo"
+        "youtubeId": "svw2KY5bIPo",
+        "spotifyUri": "3hWuXGShw7SQFw7agnmEig"
     },
     {
         "id": 13,
@@ -163,12 +175,13 @@
         "country": "Greece",
         "genre": "Melodic Doom/Death Metal",
         "smallImage": "ocean-of-grief.jpeg",
-        "heroImage": "ocean-of-grief.jpeg",
+        "heroImage": "ocean-of-grief.jpg",
         "flags": [
             "greece.png"
         ],
         "description": "Ocean Of Grief's Melodic Doom / Death dates back to 2016 in Athens, Greece, with their first musical endeavor, the \"Fortress Of My Dark Self\" EP, published by GS Productions, deeply influenced by the sound of Slumber, Enshine, Draconian, and Saturnus. The gloomy but melancholic feeling of the EP was followed by the self-released single \"After a Long Time\" and eventually the band's first full-length album \"Nightfall's Lament\", released by Rain Without End Records, diving even deeper into darkness and despair.<br /><br />The band is now releasing their sophomore album, Pale Existence, with an even darker and more melodic tone, allowing the listener to get lost in somber but immersive soundscapes.",
-        "youtubeId": "0i7nJvS32ak"
+        "youtubeId": "0i7nJvS32ak",
+        "spotifyUri": "0FyJgGUsFZlg1M2WS1ckwr"
     },
     {
         "id": 14,
@@ -176,11 +189,12 @@
         "country": "Romania",
         "genre": "Doom/Gothic Metal",
         "smallImage": "olympus-mons.jpeg",
-        "heroImage": "olympus-mons.jpeg",
+        "heroImage": "olympus-mons.jpg",
         "flags": [
             "romania.png"
         ],
         "description": "Olympus Mons is a Doom Metal band that was formed in 2019 in Bucharest, Romania, by Alex Toderasc, Cristian Lincu, Cristi Filipescu, Victor Frunza, and Antonia Plesca. As of November 2021, Valentin Cristocea has also joined the band. Each piece of music is an original composition that each of the members of OM contributes equally to, and all of them are expressions of the band's personal experiences.",
-        "youtubeId": "tCSggGUmAbQ"
+        "youtubeId": "tCSggGUmAbQ",
+        "spotifyUri": "5Y9v16EOsnlEtMcU6zI6UB"
     }
 ]

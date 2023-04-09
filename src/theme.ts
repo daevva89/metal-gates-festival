@@ -5,7 +5,7 @@ const theme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: '#ff9800', // Main primary color, e.g. for buttons and links
+            main: '#534A5F', // Main primary color, e.g. for buttons and links
             contrastText: '#ffffff', // Text color for primary color backgrounds
         },
         secondary: {
@@ -21,7 +21,7 @@ const theme = createTheme({
             secondary: '#b3b3b3', // Secondary text color, e.g. for muted text
         },
         action: {
-            active: '#ff9800', // Active color for clickable elements like buttons
+            active: '#534A5F', // Active color for clickable elements like buttons
         },
     },
     typography: {

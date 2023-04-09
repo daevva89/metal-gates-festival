@@ -15,7 +15,7 @@ const LatestNews: React.FC = () => {
                 <Card key={item.id}>
                     <CardContent>
                         <Grid container spacing={2} alignItems="center" marginBottom="20px">
-                            <Grid item xs={9} sm={10}>
+                            <Grid item xs={8} sm={10}>
                                 <Typography
                                     variant="h5"
                                     sx={{
@@ -25,7 +25,7 @@ const LatestNews: React.FC = () => {
                                     {item.title}
                                 </Typography>
                             </Grid>
-                            <Grid item xs={3} sm={2} style={{ textAlign: "right" }}>
+                            <Grid item xs={4} sm={2} style={{ textAlign: "right" }}>
                                 <Typography variant="subtitle2">
                                     {item.date}
                                 </Typography>

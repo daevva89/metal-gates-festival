@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../store/rootReducer";
@@ -14,6 +14,10 @@ const BandPage: React.FC = () => {
     );
 
     const isSmallScreen = useMediaQuery((theme: Theme) => theme.breakpoints.down("sm"));
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     if (!band) {
         return <Typography variant="h4">Band not found</Typography>;
@@ -35,7 +39,7 @@ const BandPage: React.FC = () => {
                 <Box sx={{ position: "relative", textAlign: "center" }}>
                     {isSmallScreen && (
                         <Button
-                            variant="outlined"
+                            variant="contained"
                             component={Link}
                             to="/line-up"
                         >
@@ -53,7 +57,7 @@ const BandPage: React.FC = () => {
                     </Typography>
                     {!isSmallScreen && (
                         <Button
-                            variant="outlined"
+                            variant="contained"
                             sx={{ position: "absolute", top: 0, left: 0 }}
                             component={Link}
                             to="/line-up"
@@ -83,6 +87,27 @@ const BandPage: React.FC = () => {
                 {band.youtubeId && (
                     <Box sx={{ maxWidth: "80%", mx: "auto", display: "flex", justifyContent: "center" }}>
                         <YouTube videoId={band.youtubeId} opts={opts} />
+                    </Box>
+                )}
+                {band.spotifyUri && (
+                    <Box sx={{ maxWidth: "80%", mx: "auto", mt: 4, display: "flex", justifyContent: "center" }}>
+                        {/* <iframe
+                            src={`https://open.spotify.com/embed/${band.spotifyUri}`}
+                            width={isSmallScreen ? "100%" : "300"}
+                            height="380"
+                            frameBorder="0"
+                            allowTransparency={true}
+                            allow="encrypted-media"
+                            title="Spotify Embedded Player"
+                        /> */}
+                        <iframe
+                            src={`https://open.spotify.com/embed/artist/${band.spotifyUri}?utm_source=generator&theme=0`}
+                            width="100%"
+                            height="352"
+                            frameBorder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"
+                        ></iframe>
                     </Box>
                 )}
             </Container>

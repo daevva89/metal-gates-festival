@@ -11,6 +11,7 @@ export interface Band {
     heroImage: string;
     description: string;
     youtubeId: string;
+    spotifyUri?: string;
 }
 
 interface BandsState {

@@ -1,22 +1,22 @@
 [
     {
         "title": "2022",
-        "smallImageUrl": "https://via.placeholder.com/300x500",
-        "largeImageUrl": "https://via.placeholder.com/800x800"
+        "smallImageUrl": "MGF-2022_350px.jpg",
+        "largeImageUrl": "MGF-2022_800px.jpg"
     },
     {
         "title": "2019",
-        "smallImageUrl": "https://via.placeholder.com/300x500",
-        "largeImageUrl": "https://via.placeholder.com/800x800"
+        "smallImageUrl": "MGF-2019_350px.jpg",
+        "largeImageUrl": "MGF-2019_800px.jpg"
     },
     {
         "title": "2018",
-        "smallImageUrl": "https://via.placeholder.com/300x500",
-        "largeImageUrl": "https://via.placeholder.com/800x800"
+        "smallImageUrl": "MGF-2018_350px.jpg",
+        "largeImageUrl": "MGF-2018_800px.jpg"
     },
     {
         "title": "2017",
-        "smallImageUrl": "https://via.placeholder.com/300x500",
-        "largeImageUrl": "https://via.placeholder.com/800x800"
+        "smallImageUrl": "MGF-2017_350px.jpg",
+        "largeImageUrl": "MGF-2017_800px.jpg"
     }
 ]
