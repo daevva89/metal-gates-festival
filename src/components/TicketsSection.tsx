@@ -1,8 +1,10 @@
 // TicketsSection.tsx
 import React from 'react';
-import { Box, Button, Typography, Link } from '@mui/material';
+import { Box, Button, Typography, Link, useMediaQuery, Theme } from '@mui/material';
 
 const TicketsSection: React.FC = () => {
+    const isSmallScreen = useMediaQuery((theme: Theme) => theme.breakpoints.down("sm"));
+
     return (
         <Box
             sx={{
@@ -12,7 +14,13 @@ const TicketsSection: React.FC = () => {
                 textAlign: 'center',
             }}
         >
-            <Typography variant="h3" gutterBottom>
+            <Typography
+                variant="h3"
+                gutterBottom
+                sx={{
+                    fontSize: isSmallScreen ? "2rem" : "3rem",
+                }}
+            >
                 Get Your Tickets Now!
             </Typography>
             <Typography variant="h6" gutterBottom>

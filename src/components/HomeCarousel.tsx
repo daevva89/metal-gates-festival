@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the CSS styles
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Box, useMediaQuery, Theme } from '@mui/material';
 
 interface HomeCarouselProps {
@@ -8,13 +8,36 @@ interface HomeCarouselProps {
 }
 
 const HomeCarousel: React.FC<HomeCarouselProps> = ({ images }) => {
-    const isSmallScreen = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
-    const isMediumScreen = useMediaQuery((theme: Theme) => theme.breakpoints.between('sm', 'md'));
+    const containerRef = useRef<HTMLDivElement>(null);
+    const [containerHeight, setContainerHeight] = useState(0);
+
+    const aspectRatio = images.length > 0 ? 634 / 1152 : 9 / 16;
+
+    const updateContainerHeight = () => {
+        if (containerRef.current) {
+            const containerWidth = containerRef.current.clientWidth;
+            const height = containerWidth * aspectRatio;
+            setContainerHeight(height);
+        }
+    };
+
+    useEffect(() => {
+        updateContainerHeight();
+        const handleResize = () => {
+            updateContainerHeight();
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [containerRef, aspectRatio]);
 
     return (
         <Box
+            ref={containerRef}
             sx={{
-                minHeight: isSmallScreen ? '30vh' : isMediumScreen ? '40vh' : '50vh',
+                minHeight: containerHeight,
                 mb: 4,
                 position: 'relative',
             }}
@@ -28,21 +51,20 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ images }) => {
                 showIndicators
             >
                 {images.map((image, index) => (
-                    < Box
+                    <Box
                         key={index}
                         component="div"
                         sx={{
                             width: '100%',
-                            height: isSmallScreen ? '30vh' : isMediumScreen ? '40vh' : '50vh',
+                            height: containerHeight,
                             backgroundImage: `url(${image})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                         }}
                     ></Box>
-                ))
-                }
-            </ResponsiveCarousel >
-        </Box >
+                ))}
+            </ResponsiveCarousel>
+        </Box>
     );
 };
 
