@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Container, Grid, TextField, Button } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import Hero from './Hero';
 import { sendEmailAsync } from '../features/contactSlice';
 import { RootState, AppDispatch } from '../store/store';
@@ -54,7 +55,15 @@ const ContactPage: React.FC = () => {
 
   return (
     <>
-      <Hero title="Contact Us" subtitle="Get in touch with us" />
+      <Helmet>
+        <title>Contact | Metal Gates Festival</title>
+        <meta name="description" content="Get in touch with us!" />
+      </Helmet>
+      <Hero
+        title="Contact Us"
+        subtitle="Get in touch with us"
+        image="/images/hero/hero-contact.jpg"
+      />
       <Container maxWidth="lg">
         <Alert
           severity={alertSeverity}
@@ -66,9 +75,6 @@ const ContactPage: React.FC = () => {
             : 'An error occurred while sending the email.'}
         </Alert>
         <Box sx={{ marginTop: 4 }}>
-          <Typography variant="h4" gutterBottom>
-            Contact Form
-          </Typography>
           <form onSubmit={handleSubmit}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>

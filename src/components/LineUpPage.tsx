@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { RootState } from '../store/rootReducer';
 import { Grid, Container, CircularProgress } from '@mui/material';
 import { Band } from '../features/bandsSlice';
@@ -12,7 +13,14 @@ const LineUpPage: React.FC = () => {
 
     return (
         <>
-            <Hero title={'Meet The Bands'} />
+            <Helmet>
+                <title>Line-Up | Metal Gates Festival</title>
+                <meta name="description" content="Check out the line-up for 2023!" />
+            </Helmet>
+            <Hero
+                title={'Meet The Bands'}
+                image={'/images/hero/hero-lineup.jpg'}
+            />
             <Container>
                 <Grid container spacing={4}>
                     <React.Suspense

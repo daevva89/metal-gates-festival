@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Box, Typography, Container, Divider, Button, Link, useMediaQuery, Theme } from '@mui/material';
 import Hero from './Hero';
 
@@ -7,7 +8,15 @@ const InfoPage: React.FC = () => {
 
     return (
         <>
-            <Hero title="Information" subtitle="Find out more about the event" />
+            <Helmet>
+                <title>Info | Metal Gates Festival</title>
+                <meta name="description" content="Find out more about the festival" />
+            </Helmet>
+            <Hero
+                title="Information"
+                subtitle="Find out more about the festival"
+                image="/images/hero/hero-info.jpg"
+            />
             <Container maxWidth="lg">
                 <Box sx={{ marginTop: 4 }}>
                     <Typography variant="h4" gutterBottom>

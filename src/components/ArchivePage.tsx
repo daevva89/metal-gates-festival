@@ -1,6 +1,7 @@
 // ArchivePage.tsx
 import React, { useState } from 'react';
 import { useSelector } from "react-redux";
+import { Helmet } from 'react-helmet';
 import { RootState } from "../store/rootReducer";
 import { ArchiveItem } from '../features/archiveSlice'; // Import ArchiveItem from archiveSlice
 import { Box, Typography, Grid, Dialog, DialogTitle, DialogContent, DialogActions, Button, useMediaQuery, Theme } from '@mui/material';
@@ -25,7 +26,15 @@ const ArchivePage: React.FC = () => {
 
     return (
         <>
-            <Hero title="Archive" subtitle="Browse our archive" />
+            <Helmet>
+                <title>Archive | Metal Gates Festival</title>
+                <meta name="description" content="Check out the last editions!" />
+            </Helmet>
+            <Hero
+                title="Archive"
+                subtitle="Check out the last editions!"
+                image="/images/hero/hero-archive.jpg"
+            />
             <Grid container spacing={4}>
                 {archive.map((image, index) => (
                     <Grid item xs={12} sm={6} md={3} key={index}>
