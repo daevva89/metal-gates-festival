@@ -15,8 +15,8 @@ const HomePage: React.FC = () => {
     return (
         <>
             <Helmet>
-                <title>Home Page | Your Website Name</title>
-                <meta name="description" content="A unique and descriptive meta description for the home page of your website." />
+                <title>Metal Gates Festival</title>
+                <meta name="description" content="Biggest Romanian indoor metal festival" />
             </Helmet>
             <HomeCarousel images={carouselImages} />
             <TicketsSection /> {/* Add the TicketsSection between the carousel and the news */}
