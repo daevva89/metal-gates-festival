@@ -29,6 +29,34 @@
     },
     {
         "id": 3,
+        "name": "Batushka",
+        "country": "Poland",
+        "genre": "Black Metal",
+        "smallImage": "batushka.jpeg",
+        "heroImage": "batushka.jpg",
+        "flags": [
+            "poland.png"
+        ],
+        "description": "is a Poland-based black metal phenomenon. Their shows don’t leave anyone indifferent, for they are not just metal gigs but a true theatrical black liturgy.<br />Having just returned from oversea tours in the US,  Mexico and Japan BATUSHKA are stronger than ever, ready to give their European pilgrims the unholy mass.",
+        "youtubeId": "hn6Uz4F71aY",
+        "spotifyUri": "15LsRgSmN0t8VLcsUFYW5J"
+    },
+    {
+        "id": 4,
+        "name": "Arkona",
+        "country": "Russia",
+        "genre": "Pagan Metal",
+        "smallImage": "arkona.jpeg",
+        "heroImage": "arkona.jpg",
+        "flags": [
+            "russia.png"
+        ],
+        "description": "After five long years, pagan metal institution ARKONA finally return with their ominous ninth studio album, Kob’, to be released on June 16, 2023 via Napalm Records. Once again, the musicians dive into the deep, dark realms of vocalist Masha Scream’s philosophy and views on the future of mankind’s modern existence while they paint their music in the light of pagan traditions.<br />With eight albums under their belts and multi-millions of cross-platform streams, the eight new tracks on Kob’ reveal another side of the band, forming the next chapter in their discography.",
+        "youtubeId": "xI-DQ1OxRzY",
+        "spotifyUri": "6AJ9HQ2Ptp1WWEfBFvR5fF"
+    },
+    {
+        "id": 5,
         "name": "Darvaza",
         "country": "International",
         "genre": "Black Metal",
@@ -43,7 +71,7 @@
         "spotifyUri": "3bLPyQrEBC1SClEcf6kZ3n"
     },
     {
-        "id": 4,
+        "id": 6,
         "name": "Antimatter",
         "country": "United Kingdom",
         "genre": "Dark Progressive Art Rock",
@@ -57,7 +85,7 @@
         "spotifyUri": "2k4duorvZ5lTq33ljpT0sc"
     },
     {
-        "id": 5,
+        "id": 7,
         "name": "Khors",
         "country": "Ukraine",
         "genre": "Black Metal",
@@ -71,7 +99,7 @@
         "spotifyUri": "3tJCrNrAyyrC4BRVeTzD6t"
     },
     {
-        "id": 6,
+        "id": 8,
         "name": "Shores Of Null",
         "country": "Italy",
         "genre": "Melodic Black/Doom Metal",
@@ -85,7 +113,35 @@
         "spotifyUri": "76lKNyW77arKg42qdDO9Sm"
     },
     {
-        "id": 7,
+        "id": 9,
+        "name": "Machiavellian God",
+        "country": "Romania",
+        "genre": "Melodic Death Metal",
+        "smallImage": "machiavellian-god.jpeg",
+        "heroImage": "machiavellian-god.jpg",
+        "flags": [
+            "romania.png"
+        ],
+        "description": "Formed in 2017, Machiavellian God is a Melodic Death Metal group hailing from Bucharest, Romania. Their approach to songwriting is distinct, as they skillfully blend elements from Doom, Black, Atmospheric, and other genres, crafting a rich tapestry of sound that rests upon a strong foundation of Melodic Death Metal. With their lyrical content, Machiavellian God delves deep into captivating themes including Gnosticism, esoteric practices, mythical narratives, and ancient beliefs, seamlessly intertwining them with their music to create a harmonious whole.",
+        "youtubeId": "Hlpo2_xkt6w",
+        "spotifyUri": "1sAJlouTofs7fVJG6ct61M"
+    },
+    {
+        "id": 10,
+        "name": "Aeternam",
+        "country": "Canada",
+        "genre": "Symphonic/Folk/Death Metal",
+        "smallImage": "aeternam.jpeg",
+        "heroImage": "aeternam.jpg",
+        "flags": [
+            "canada.png"
+        ],
+        "description": "Hailing from Quebec, Canada, Aeternam delivers a unique blend of Melodic Death Metal and Middle Eastern influences, creating a sound that is both heavy and captivating. They will promote their outstanding latest album “Hier of the Rising Sun”",
+        "youtubeId": "NyUS5FIZYuc",
+        "spotifyUri": "2rC2vtci4S1g3irfTDyi9s"
+    },
+    {
+        "id": 11,
         "name": "Shattered Hope",
         "country": "Greece",
         "genre": "Funeral Doom/Death Metal",
@@ -99,7 +155,7 @@
         "spotifyUri": "03nMSvLmzCW70rn7kPcFAt"
     },
     {
-        "id": 8,
+        "id": 12,
         "name": "Remina",
         "country": "Germany",
         "genre": "Atmospheric Gothic/Doom Metal",
@@ -113,7 +169,7 @@
         "spotifyUri": "5M8gMWMvoNjV1YzX2o9cPT"
     },
     {
-        "id": 9,
+        "id": 13,
         "name": "Doomas",
         "country": "Slovakia",
         "genre": "Melodic Doom/Death Metal",
@@ -127,7 +183,7 @@
         "spotifyUri": "5jo3XS1o8RDOLEWxbO8esY"
     },
     {
-        "id": 10,
+        "id": 14,
         "name": "Pilgrimage",
         "country": "International",
         "genre": "Doom/Death Metal",
@@ -142,7 +198,7 @@
         "spotifyUri": "6dFsyp0pU5Fy5GQCAhdkAq"
     },
     {
-        "id": 11,
+        "id": 15,
         "name": "Woe Unto Me",
         "country": "Belarus",
         "genre": "Funeral Doom Metal",
@@ -156,7 +212,7 @@
         "spotifyUri": "7nFCNvJBqmpWIhyQbOdMfG"
     },
     {
-        "id": 12,
+        "id": 16,
         "name": "Sinnery",
         "country": "Israel",
         "genre": "Thrash Metal",
@@ -170,7 +226,7 @@
         "spotifyUri": "3hWuXGShw7SQFw7agnmEig"
     },
     {
-        "id": 13,
+        "id": 17,
         "name": "Ocean Of Grief",
         "country": "Greece",
         "genre": "Melodic Doom/Death Metal",
@@ -184,7 +240,22 @@
         "spotifyUri": "0FyJgGUsFZlg1M2WS1ckwr"
     },
     {
-        "id": 14,
+        "id": 18,
+        "name": "Drown The Sea",
+        "country": "International",
+        "genre": "Atmospheric Doom Metal",
+        "smallImage": "drown-the-sea.jpeg",
+        "heroImage": "drown-the-sea.jpg",
+        "flags": [
+            "romania.png",
+            "malta.png",
+            "belarus.png",
+            "greece.png"
+        ],
+        "description": "Drown The Sea hails musicians from bands like Clouds, Machiavellian God, Woe Unto Me, Pilgrimage, and Ocean of Grief for a beautiful combination of Doom Death full of emotion, heaviness, and melody.<br />The music is like a funeral procession sailing through stormy waters. The music is the crashing of waves against the hull of a wooden vessel, the howling of the wind through tattered sails, and the mournful dirges of a grieving crew. Each note is a tearful goodbye to what was lost, a lament for what could have been, and a requiem for the anguish we all feel. Drown The Sea is a tempest that engulfs you and leaves you gasping for air. This band’s own brand of Funeral Doom Metal is a reminder that even in the darkest moments, there is beauty to be found and that sometimes, the only way to move forward is to drown in the sea of grief and let it carry you to shore."
+    },
+    {
+        "id": 19,
         "name": "Olympus Mons",
         "country": "Romania",
         "genre": "Doom/Gothic Metal",
@@ -196,5 +267,19 @@
         "description": "Olympus Mons is a Doom Metal band that was formed in 2019 in Bucharest, Romania, by Alex Toderasc, Cristian Lincu, Cristi Filipescu, Victor Frunza, and Antonia Plesca. As of November 2021, Valentin Cristocea has also joined the band. Each piece of music is an original composition that each of the members of OM contributes equally to, and all of them are expressions of the band's personal experiences.",
         "youtubeId": "tCSggGUmAbQ",
         "spotifyUri": "5Y9v16EOsnlEtMcU6zI6UB"
+    },
+    {
+        "id": 20,
+        "name": "DinUmbra",
+        "country": "Romania",
+        "genre": "Doom/Death Metal",
+        "smallImage": "dinumbra.jpeg",
+        "heroImage": "dinumbra.jpg",
+        "flags": [
+            "romania.png"
+        ],
+        "description": "DinUmbra was formed in Bucharest in 1998. Their music includes influences from Death, Doom, Gothic and other genres, all merged in a very \"dark\" frame where Heavy Metal parts blend harmoniously with melodic ones.<br />The discography of the band includes two albums (\"DinUmbră\" - 2003 and \"Soul of a Galaxy\" - 2015), and two EPs (\"Haunted by Snails\" - 2007, \"Sântandrei\" - 2011). This year the band will release their 5’th discographic record in its career, which will be named \"Finality\".<br />Along its musical adventure, DinUmbra shared the scene with some great bands, proud to be part of many local festivals, such as Top T Buzau, Barock Fest, Rockstadt Extreme Fest, Encore Metal Fest, The Temple, Dark City Nights, took part at the final stage of Rock in Park (2013) and won the South semifinal of the Wacken Open Air Metal Battle Romania contest in 2014.",
+        "youtubeId": "fatcAVJ2zP4",
+        "spotifyUri": "2ygbi9JB1J9Fw4YoBqcoYY"
     }
 ]

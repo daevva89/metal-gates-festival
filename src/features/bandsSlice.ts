@@ -10,7 +10,7 @@ export interface Band {
     smallImage: string;
     heroImage: string;
     description: string;
-    youtubeId: string;
+    youtubeId?: string;
     spotifyUri?: string;
 }
 
