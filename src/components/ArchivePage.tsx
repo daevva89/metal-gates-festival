@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { Helmet } from 'react-helmet';
 import { RootState } from "../store/rootReducer";
 import { ArchiveItem } from '../features/archiveSlice'; // Import ArchiveItem from archiveSlice
-import { Box, Typography, Grid, Dialog, DialogTitle, DialogContent, DialogActions, Button, useMediaQuery, Theme } from '@mui/material';
+import { Box, Typography, Grid, Dialog, DialogTitle, DialogContent, useMediaQuery, Theme } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Hero from './Hero';

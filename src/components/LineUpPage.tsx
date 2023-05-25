@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy } from 'react';
 import { useSelector } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { RootState } from '../store/rootReducer';

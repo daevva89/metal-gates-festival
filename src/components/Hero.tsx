@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Box, Typography, useMediaQuery, Theme } from '@mui/material';
 
 interface HeroProps {
@@ -13,13 +13,13 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, image }) => {
 
     const aspectRatio = image ? 634 / 1152 : 9 / 16; // Set the aspect ratio of your image or use a default value
 
-    const updateContainerHeight = () => {
+    const updateContainerHeight = useCallback(() => {
         if (containerRef.current) {
             const containerWidth = containerRef.current.clientWidth;
             const height = containerWidth * aspectRatio;
             setContainerHeight(height);
         }
-    };
+    }, [aspectRatio]);
 
     useEffect(() => {
         updateContainerHeight();
@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, image }) => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, [containerRef, aspectRatio]);
+    }, [containerRef, updateContainerHeight]);
 
     const isSmallScreen = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
     const isMediumScreen = useMediaQuery((theme: Theme) => theme.breakpoints.between('sm', 'md'));

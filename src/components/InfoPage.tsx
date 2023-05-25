@@ -70,6 +70,7 @@ const InfoPage: React.FC = () => {
                         By car: use the Google Maps link below for directions.
                         <br /><br />
                         <iframe
+                            title='Quantic Club on Google Maps'
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11395.051479425558!2d26.059491!3d44.4380262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201dd302158f1%3A0x49bc027df27ca3db!2sQuantic%20Pub!5e0!3m2!1sen!2sro!4v1680718303432!5m2!1sen!2sro"
                             width={isSmallScreen ? '100%' : '600'}
                             height="450"

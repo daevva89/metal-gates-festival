@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, TextField, Button } from '@mui/material';
+import { Box, Container, Grid, TextField, Button } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import Hero from './Hero';

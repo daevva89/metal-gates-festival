@@ -13,7 +13,7 @@ import InfoPage from './components/InfoPage';
 import ArchivePage from './components/ArchivePage';
 import ContactPage from './components/ContactPage';
 import { CssBaseline, Container, Box } from '@mui/material';
-
+import GoogleAnalytics from './GoogleAnalytics'
 
 const App: React.FC = () => {
   return (
@@ -21,22 +21,24 @@ const App: React.FC = () => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Router>
-          <Header />
-          <Box component="main" sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-            <Box flexGrow={1} paddingTop="64px">
-              <Container maxWidth="lg">
-                <Routes>
-                  <Route path="/" element={<HomePage />} />
-                  <Route path="/line-up" element={<LineUpPage />} />
-                  <Route path="/line-up/:bandName" element={<BandPage />} />
-                  <Route path="/info" element={<InfoPage />} />
-                  <Route path="/archive" element={<ArchivePage />} />
-                  <Route path="/contact" element={<ContactPage />} />
-                </Routes>
-              </Container>
+          <GoogleAnalytics>
+            <Header />
+            <Box component="main" sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+              <Box flexGrow={1} paddingTop="64px">
+                <Container maxWidth="lg">
+                  <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/line-up" element={<LineUpPage />} />
+                    <Route path="/line-up/:bandName" element={<BandPage />} />
+                    <Route path="/info" element={<InfoPage />} />
+                    <Route path="/archive" element={<ArchivePage />} />
+                    <Route path="/contact" element={<ContactPage />} />
+                  </Routes>
+                </Container>
+              </Box>
+              <Footer />
             </Box>
-            <Footer />
-          </Box>
+          </GoogleAnalytics>
         </Router>
       </ThemeProvider>
     </Provider>

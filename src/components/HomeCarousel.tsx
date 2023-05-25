@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Box, useMediaQuery, Theme } from '@mui/material';
+import { Box } from '@mui/material';
 
 interface HomeCarouselProps {
     images: string[];
@@ -13,13 +13,13 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ images }) => {
 
     const aspectRatio = images.length > 0 ? 634 / 1152 : 9 / 16;
 
-    const updateContainerHeight = () => {
+    const updateContainerHeight = useCallback(() => {
         if (containerRef.current) {
             const containerWidth = containerRef.current.clientWidth;
             const height = containerWidth * aspectRatio;
             setContainerHeight(height);
         }
-    };
+    }, [aspectRatio]);
 
     useEffect(() => {
         updateContainerHeight();
@@ -31,7 +31,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ images }) => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, [containerRef, aspectRatio]);
+    }, [containerRef, updateContainerHeight]);
 
     return (
         <Box

@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import { useSelector } from "react-redux";
 import { RootState } from "../store/rootReducer";
-import { Box, Button, Container, Typography, Grid, useMediaQuery, Theme } from "@mui/material";
+import { Box, Button, Container, Typography, useMediaQuery, Theme } from "@mui/material";
 import YouTube from "react-youtube";
 import Hero from "./Hero";
 
@@ -98,6 +98,7 @@ const BandPage: React.FC = () => {
                     {band.spotifyUri && (
                         <Box sx={{ maxWidth: "80%", mx: "auto", mt: 4, display: "flex", justifyContent: "center" }}>
                             <iframe
+                                title={`Spotify player for ${band.name}`}
                                 src={`https://open.spotify.com/embed/artist/${band.spotifyUri}?utm_source=generator&theme=0`}
                                 width="100%"
                                 height="352"
