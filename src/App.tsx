@@ -14,8 +14,14 @@ import ArchivePage from './components/ArchivePage';
 import ContactPage from './components/ContactPage';
 import { CssBaseline, Container, Box } from '@mui/material';
 import GoogleAnalytics from './GoogleAnalytics'
+import TicketRedirect from './components/TicketRedirect';
+import CookieConsent from "react-cookie-consent";
+import Cookies from 'universal-cookie';
 
 const App: React.FC = () => {
+
+  const cookies = new Cookies();
+
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
@@ -33,11 +39,31 @@ const App: React.FC = () => {
                     <Route path="/info" element={<InfoPage />} />
                     <Route path="/archive" element={<ArchivePage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/tickets" element={<TicketRedirect />} />
                   </Routes>
                 </Container>
               </Box>
               <Footer />
             </Box>
+            <CookieConsent
+              location="bottom"
+              buttonText="Accept"
+              declineButtonText="Decline"
+              cookieName="cookie-acceptance"
+              style={{ background: "#2B373B" }}
+              buttonStyle={{ color: "#ffffff", fontSize: "13px", borderRadius: '5px', background: "green" }}
+              declineButtonStyle={{ color: "#ffffff", fontSize: "13px", borderRadius: '5px', background: "red" }}
+              expires={150}
+              enableDeclineButton
+              onDecline={() => {
+                const cookieNames = cookies.getAll(); // get all cookies
+                for (let key in cookieNames) {
+                  cookies.remove(key); //remove each cookie
+                }
+              }}
+            >
+              We use cookies to enhance your experience. By clicking "Accept", you agree to our use of cookies. By clicking "Decline", you decline our use of non-essential cookies.
+            </CookieConsent>
           </GoogleAnalytics>
         </Router>
       </ThemeProvider>

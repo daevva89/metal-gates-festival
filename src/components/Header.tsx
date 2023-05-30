@@ -58,9 +58,7 @@ const Header: React.FC = () => {
                             {navLinks.map((link) => (
                                 <Button color="inherit" key={link.href} component={RouterLink} to={link.href}>{link.label}</Button>
                             ))}
-                            <Link href="https://metalgates.iabilet.ro" target="_blank" rel="noopener noreferrer" className="externalLink">
-                                <Button color="secondary" variant="contained">Tickets</Button>
-                            </Link>
+                            <Button color="secondary" variant="contained" component={RouterLink} to="/tickets">Tickets</Button>
                         </Box>
                     </Toolbar>
                 </Container>
@@ -72,9 +70,7 @@ const Header: React.FC = () => {
                             {navLinks.map((link) => (
                                 <Button color="inherit" key={link.href} component={RouterLink} to={link.href} onClick={handleMenuButtonClick}>{link.label}</Button>
                             ))}
-                            <Link href="https://metalgates.iabilet.ro" target="_blank" rel="noopener noreferrer" className="externalLink">
-                                <Button color="secondary" variant="contained" onClick={handleMenuButtonClick}>Tickets</Button>
-                            </Link>
+                            <Button color="secondary" variant="contained" component={RouterLink} to="/tickets">Tickets</Button>
                         </Box>
                     </Box>
                 </Box>
